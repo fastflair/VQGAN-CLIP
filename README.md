@@ -17,7 +17,7 @@ Some example images:
 
 Environment:
 
-* Tested on Ubuntu 20.04
+* Tested on Windows 11 Anaconda environment
 * GPU: Nvidia RTX 3090
 * Typical VRAM requirements:
   * 24 GB for a 900x900 image
