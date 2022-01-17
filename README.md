@@ -171,6 +171,13 @@ python generate.py -p "A painting in the style of Picasso" -ii samples/VanGogh.j
 
 A video style transfer effect can be achived by specifying a directory of video frames in `video_style_dir`. Output will be saved in the steps directory, using the original video frame filenames. You can also use this as a sort of "batch mode" if you have a directory of images you want to apply a style to. This can also be combined with Story Mode if you don't wish to apply the same style to every images, but instead roll through a list of styles.
 
+## Upscaling
+The utility upscale.py can be used to double the resolution of generated images using a GAN from ISR.models with an RRDN architecture.  To use:
+"python upscale.py filename"  The utility will create the resolution image by appending "_up" to the filename.
+
+## Windows script
+The createImages.bat file has example of using the pretrained default and coco models with the architecture.
+
 ## Feedback example
 
 By feeding back the generated images and making slight changes, some interesting effects can be created.
